@@ -26,3 +26,21 @@ deno task dev #/ build
 
 even though adding incorrect syntax to `*.gleam` files in `src/` does throw errors.
 There is no sign of any gleam js code being bundled into `dist/`.
+
+
+## It works
+
+changed `index.html` to point to `src/main.js`
+
+```
++++ index.html
+-    <script type="module" src="src/canhazgleamplz.gleam"></script>
++    <script type="module" src="src/main.js"></script>
+```
+
+`src/main.js` just imports the main module.
+
+```
+import { main } from "./canhazgleamplz.gleam";
+main();
+```

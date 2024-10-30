@@ -5,5 +5,5 @@ pub fn print(str: String) -> Nil
 
 pub fn main(){
   io.println("Hello from io!")
-  print("Hello, Please Help")
+  print("Hello from Gleam JS FFI!")
 }

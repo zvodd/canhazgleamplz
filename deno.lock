@@ -450,6 +450,7 @@
       "dependencies": [
         "npm:esbuild@0.24",
         "npm:vite-gleam@~0.4.3",
+        "npm:vite-plugin-inspect@~0.8.7",
         "npm:vite@^5.4.8"
       ]
     }
