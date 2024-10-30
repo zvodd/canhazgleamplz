@@ -1,22 +1,17 @@
-# ok
+# canhazgleamplz
 
-[![Package Version](https://img.shields.io/hexpm/v/ok)](https://hex.pm/packages/ok)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/ok/)
 
-```sh
-gleam add ok@1
-```
-```gleam
-import ok
+Attempting to get vita working with gleam
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
+
+## Node
+```bash
+npm install
+npm run build
 ```
 
-Further documentation can be found at <https://hexdocs.pm/ok>.
 
-## Development
+## Deno
 
 ```sh
 gleam run   # Run the project
